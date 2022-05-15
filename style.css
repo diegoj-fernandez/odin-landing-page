@@ -6,6 +6,7 @@ body {
     display: flex;
     /* Remember "flex: ;" for the items inside the body */
     flex-direction: column;
+    height: 100vh;
     margin: 0;
 }
 
@@ -21,7 +22,7 @@ body {
 }
 
 .main-one {
-    flex: 1;
+    flex: 1 1 auto;
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
@@ -42,6 +43,77 @@ body {
     color: #e5e7eb;
 }
 
+.main-two {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-two-body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-two-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-two-info p {
+    text-align: center;
+}
+
+.main-two-img {
+    border: 1px solid #3882f6;
+    border-radius: 3px;
+    height: 100px;
+    width: 100px;
+}
+
+.main-three {
+    flex: 1 1 auto;
+    background-color: #efe7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-three-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.author {
+    text-align: right;
+}
+
+.main-four {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-four-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-four-text {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -60,6 +132,7 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 3px;
+    flex: 1;
 }
 
 .footer {
