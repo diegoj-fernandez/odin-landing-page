@@ -292,6 +292,12 @@ button {
     gap: 20px;
 }
 
+.two-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
 .two-body {
     display: flex;
     align-items: center;
