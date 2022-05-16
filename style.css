@@ -319,3 +319,21 @@ button {
     height: 135px;
     width: 135px;
 }
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    text-align: justify;
+}
+
+.author {
+    color: #1f2937;
+    font-size: 16px;
+    text-align: right;
+    padding-top: 5px;
+}
