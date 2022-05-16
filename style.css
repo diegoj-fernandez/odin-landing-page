@@ -1,6 +1,6 @@
-* {
+/** {
     border: 2px solid red;
-}
+}*/
 
 body {
     display: flex;
@@ -109,18 +109,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 .main-three-info {
     display: flex;
     flex-direction: column;
+    margin: 0 130px;
 }
 
 .quote {
     color: #1f2937;
     font-size: 36px;
     font-weight: 200;
-    text-align: left;
+    text-align: justify;
+    margin-bottom: 0;
 }
 
 .author {
@@ -135,14 +138,23 @@ body {
 }
 
 .main-four-info {
+    background-color: #3882f6;
     display: flex;
     align-items: center;
-
+    margin: 40px 80px;
+    padding: 30px 70px;
+    border-radius: 10px;
+    gap: 20px;
 }
 
 .main-four-text {
     display: flex;
     flex-direction: column;
+}
+
+.main-four-text p {
+    margin: 0;
+    color: #e5e7eb;
 }
 
 ul {
@@ -175,4 +187,5 @@ button {
     align-items: center;
     background-color: #1f2937;
     color: #e5e7eb;
+    padding: 20px 0;
 }
