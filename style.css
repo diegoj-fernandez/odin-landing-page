@@ -1,10 +1,13 @@
-/** {
+/*
+
+This is the first attempt of the landing page project
+
+* {
     border: 2px solid red;
-}*/
+}
 
 body {
     display: flex;
-    /* Remember "flex: ;" for the items inside the body */
     flex-direction: column;
     height: 100%;
     margin: 0;
@@ -188,4 +191,94 @@ button {
     background-color: #1f2937;
     color: #e5e7eb;
     padding: 20px 0;
+}
+
+*/
+
+* {
+    border: 2px solid red;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #efe7eb;
+}
+
+.one * {
+    flex: 1;
+}
+
+.one {
+    display: flex;
+    padding: 40px 80px;
+    background-color: #1f2937;
+    gap: 10px;
+}
+
+.one h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.one p {
+    color: #efe7eb;
+}
+
+.one-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.one-img {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
 }
