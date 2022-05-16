@@ -6,7 +6,7 @@ body {
     display: flex;
     /* Remember "flex: ;" for the items inside the body */
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     margin: 0;
 }
 
@@ -67,17 +67,29 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 0 80px;
+}
+
+.main-two-header {
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .main-two-body {
+    flex: 1;
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
+    gap: 40px;
 }
 
 .main-two-info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+    width: 130px;
 }
 
 .main-two-info p {
@@ -85,10 +97,10 @@ body {
 }
 
 .main-two-img {
-    border: 1px solid #3882f6;
-    border-radius: 3px;
-    height: 100px;
-    width: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 130px;
+    width: 130px;
 }
 
 .main-three {
@@ -153,6 +165,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #f9faf8;
     border-radius: 5px;
 }
 
