@@ -282,3 +282,34 @@ button {
     border: 2px solid #f9faf8;
     border-radius: 5px;
 }
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.two-body {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.two-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 135px;
+}
+
+.box {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 135px;
+    width: 135px;
+}
